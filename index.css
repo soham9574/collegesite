@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container{
+    background-color: rgb(146, 146, 195);
+    height: 95vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.btn {
+    background-color:greenyellow; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+.parts{
+         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 320px;
+    border-radius: 15px;
+}
+input{
+    background-color: rgb(233, 234, 234);
+    color: blue;
+    font-size: medium;
+    font-weight: 200;
+
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     height: 40px;
+     width: 320px;
+     height: 7vh;
+     width: 22vw;
+
+}
+
+::placeholder{
+    color: red;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+input {
+    text-align: center;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+
+
+  img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  #otpver{
+    
+    background-color: rgb(146, 146, 195);
+    height: 55vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    display: none;
+  }
+  .display{
+    display: none;
+  }
+  input #btns{
+    background-color: red;
+    background-color: brown;
+  }
+  input #btns:hover{
+    background-color: red;
+    background-color: brown;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:659px) and (min-width:205px){
+      .main-container{
+        height: 90vh;
+        width: 85vw;
+      }
+         
+  }
